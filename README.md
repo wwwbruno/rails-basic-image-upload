@@ -13,3 +13,6 @@ Follow the command below and track the commits to check the manual code changes
     
 ### Migrate your database:
     rake db:migrate
+
+### Generate Picture uploader
+    rails g uploader Picture

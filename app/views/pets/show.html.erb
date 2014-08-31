@@ -7,7 +7,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @pet.picture %>
+  <%= image_tag(@pet.picture_url) if @pet.picture.present? %>
 </p>
 
 <%= link_to 'Edit', edit_pet_path(@pet) %> |
